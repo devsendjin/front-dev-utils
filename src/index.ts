@@ -1,0 +1,3 @@
+import "./log.ts";
+
+export {};
