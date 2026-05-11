@@ -68,5 +68,5 @@ export const clearAndLog = (...args: any[]): void => {
   logWithCallerLine(args);
 };
 
-window.llog = log;
-window.llogc = clearAndLog;
+globalThis.llog = log;
+globalThis.llogc = clearAndLog;
